@@ -1,4 +1,7 @@
 package com.example.galeriagatos
+
+import androidx.compose.runtime.mutableStateListOf
+
 //CREAR OBJETOS DE TIPO DE GATO
 object Sistema{
     val gato =
@@ -9,7 +12,7 @@ object Sistema{
             imagenId = R.drawable.gatopersa
         )
     //LISTA DE GATOS TIPO MUTABLELIST
-    val listaGato = mutableListOf(
+    val listaGato = mutableStateListOf(
         gato,
         Gato(
             id= 2,
